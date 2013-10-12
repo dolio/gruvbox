@@ -62,7 +62,6 @@ endif
 
 " }}}
 " Palette: {{{
-
 let s:gb = {}
 
 if &background == 'dark'
@@ -570,6 +569,9 @@ call s:HL('clojureDeref', 'yellow')
 call s:HL('clojureQuote', 'yellow')
 call s:HL('clojureUnquote', 'yellow')
 " }}}
+
+" bling
+call s:HL('BlingHilight', 'dark0', 'blue')
 
 " Functions -------------------------------------------------------------------
 " Search Highlighting {{{
